@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_jk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Jenis Kelamin" />
+
+        <TextView
+            android:id="@+id/tv_jurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jurusan" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_pendaftaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal pendaftaran" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

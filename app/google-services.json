@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "592241744799",
+    "firebase_url": "https://daterangepicker-firebase.firebaseio.com",
+    "project_id": "daterangepicker-firebase",
+    "storage_bucket": "daterangepicker-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592241744799:android:ec21d181148dc7cabc3baa",
+        "android_client_info": {
+          "package_name": "com.budyfriend.daterangepickerfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592241744799-8bia9nujnscoi1d35mls8f6d15mjtd45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfB68T4-6jeaimoZ6KFfAx8rCc_NrXGQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592241744799-8bia9nujnscoi1d35mls8f6d15mjtd45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
