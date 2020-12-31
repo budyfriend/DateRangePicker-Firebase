@@ -25,18 +25,22 @@
                 android:orientation="horizontal">
 
                 <EditText
+                    android:textSize="12dp"
                     android:id="@+id/input_minimal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:inputType="text"
                     android:enabled="false"
                     android:hint="Minimal" />
 
                 <Button
+                    android:drawableRight="@android:drawable/ic_menu_my_calendar"
+                    android:paddingEnd="9dp"
                     android:id="@+id/btn_minimal"
-                    android:layout_width="wrap_content"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:text="Date" />
+                    tools:ignore="RtlHardcoded" />
             </LinearLayout>
 
             <LinearLayout
@@ -47,27 +51,56 @@
 
                 <EditText
                     android:id="@+id/input_maximal"
+                    android:textSize="12dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:inputType="text"
                     android:enabled="false"
                     android:hint="Maximal" />
 
                 <Button
                     android:id="@+id/btn_maximal"
-                    android:layout_width="wrap_content"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:text="Date" />
+                    android:drawableRight="@android:drawable/ic_menu_my_calendar"
+                    android:paddingEnd="9dp"/>
+
             </LinearLayout>
+            <Button
+                android:layout_marginStart="10dp"
+                android:id="@+id/cari"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingEnd="9dp"
+                android:enabled="false"
+                android:drawableRight="@android:drawable/ic_menu_search" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/cari"
-            android:enabled="false"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:text="Cari" />
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.SearchView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:id="@+id/searchData"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_jurusan"/>
+
+        </LinearLayout>
+
+
+
+
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -77,6 +110,17 @@
         android:layout_below="@+id/header"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/item_layout" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_kandidat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/fab_add"
+        android:src="@drawable/ic_baseline_person_24"
+        android:tint="@android:color/white" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_add"

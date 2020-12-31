@@ -16,6 +16,15 @@
 
     <EditText
         android:layout_marginTop="10dp"
+        android:id="@+id/et_npm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="10"
+        android:hint="NPM"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
         android:id="@+id/et_nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,7 +57,7 @@
             android:text="Perempuan" />
     </RadioGroup>
 
-    <EditText
+    <Spinner
         android:id="@+id/et_jurusan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -76,6 +85,15 @@
 
 
     </LinearLayout>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="10"
+        android:hint="Password"/>
 
     <Button
         android:id="@+id/simpanData"

@@ -1,34 +1,79 @@
 {
   "project_info": {
-    "project_number": "592241744799",
-    "firebase_url": "https://daterangepicker-firebase.firebaseio.com",
-    "project_id": "daterangepicker-firebase",
-    "storage_bucket": "daterangepicker-firebase.appspot.com"
+    "project_number": "293837150838",
+    "firebase_url": "https://interaction-2c44f.firebaseio.com",
+    "project_id": "interaction-2c44f",
+    "storage_bucket": "interaction-2c44f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:592241744799:android:ec21d181148dc7cabc3baa",
+        "mobilesdk_app_id": "1:293837150838:android:6655f7e84fea7322e61d57",
         "android_client_info": {
-          "package_name": "com.budyfriend.daterangepickerfirebase"
+          "package_name": "com.budyfriend.com"
         }
       },
       "oauth_client": [
         {
-          "client_id": "592241744799-8bia9nujnscoi1d35mls8f6d15mjtd45.apps.googleusercontent.com",
+          "client_id": "293837150838-ebvnu5q01bnom5hqarloegc8hdqcnb9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.budyfriend.com",
+            "certificate_hash": "a00e910faca3b962f67016c4ecd335cecad25ba9"
+          }
+        },
+        {
+          "client_id": "293837150838-afduvf58fnp6ek850irj5qhtq2vfojn4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCfB68T4-6jeaimoZ6KFfAx8rCc_NrXGQg"
+          "current_key": "AIzaSyBU813gcwzvc7xNSPRf3O-0CLT0MISj-Nw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "592241744799-8bia9nujnscoi1d35mls8f6d15mjtd45.apps.googleusercontent.com",
+              "client_id": "293837150838-afduvf58fnp6ek850irj5qhtq2vfojn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293837150838:android:f83c75ddcd40da40e61d57",
+        "android_client_info": {
+          "package_name": "com.budyfriend.daterangepickerfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293837150838-m588vi8oaf0p9j0a1dhp9voinsuocis4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.budyfriend.daterangepickerfirebase",
+            "certificate_hash": "6a7c0b47bb22d33bd82f750a9268099240af875c"
+          }
+        },
+        {
+          "client_id": "293837150838-afduvf58fnp6ek850irj5qhtq2vfojn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU813gcwzvc7xNSPRf3O-0CLT0MISj-Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293837150838-afduvf58fnp6ek850irj5qhtq2vfojn4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
